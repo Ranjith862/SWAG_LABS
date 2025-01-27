@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+	<listeners>
+		<listener class-name="com.lao.testnglisteners.ListernerClass"></listener>
+	</listeners>
+	<test thread-count="5" name="test1">
+		<classes>
+			<class name="com.lao.testcases.TC_001_GetAllProductsNameAndRate" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="test2">
+		<classes>
+			<class name="com.lao.testcases.TC_002_AddAllProducts" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="test3">
+		<classes>
+			<class name="com.lao.testcases.TC_003_AddOneProductAndRemoveInCart" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="test4">
+		<classes>
+			<class name="com.lao.testcases.TC_004_FinishCheckOutAndGetCOInfo" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="test5">
+		<classes>
+			<class name="com.lao.testcases.TC_005_VerifyTheErrorMessageInCOInfo" />
+		</classes>
+	</test>
+
+
+	<!-- Test -->
+</suite> <!--
+Suite -->

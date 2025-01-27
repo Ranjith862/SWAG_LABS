@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-27T16:19:23 IST" name="Suite" finished-at="2025-01-27T16:19:32 IST" duration-ms="9445">
+    <groups>
+    </groups>
+    <test started-at="2025-01-27T16:19:23 IST" name="test1" finished-at="2025-01-27T16:19:23 IST" duration-ms="454">
+      <class name="com.lao.testcases.TC_001_GetAllProductsNameAndRate">
+        <test-method is-config="true" signature="navigateToInventoryPage()[pri:0, instance:com.lao.testcases.TC_001_GetAllProductsNameAndRate@6c284af]" started-at="2025-01-27T16:19:23 IST" name="navigateToInventoryPage" finished-at="2025-01-27T16:19:23 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToInventoryPage -->
+        <test-method signature="getProductsNames()[pri:0, instance:com.lao.testcases.TC_001_GetAllProductsNameAndRate@6c284af]" started-at="2025-01-27T16:19:23 IST" name="getProductsNames" finished-at="2025-01-27T16:19:23 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductsNames -->
+      </class> <!-- com.lao.testcases.TC_001_GetAllProductsNameAndRate -->
+    </test> <!-- test1 -->
+    <test started-at="2025-01-27T16:19:23 IST" name="test2" finished-at="2025-01-27T16:19:25 IST" duration-ms="1795">
+      <class name="com.lao.testcases.TC_002_AddAllProducts">
+        <test-method is-config="true" signature="navigateToInventoryPage()[pri:0, instance:com.lao.testcases.TC_002_AddAllProducts@4201c465]" started-at="2025-01-27T16:19:23 IST" name="navigateToInventoryPage" finished-at="2025-01-27T16:19:23 IST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToInventoryPage -->
+        <test-method signature="addAllProducts()[pri:0, instance:com.lao.testcases.TC_002_AddAllProducts@4201c465]" started-at="2025-01-27T16:19:23 IST" name="addAllProducts" finished-at="2025-01-27T16:19:25 IST" duration-ms="1719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAllProducts -->
+      </class> <!-- com.lao.testcases.TC_002_AddAllProducts -->
+    </test> <!-- test2 -->
+    <test started-at="2025-01-27T16:19:25 IST" name="test3" finished-at="2025-01-27T16:19:26 IST" duration-ms="1127">
+      <class name="com.lao.testcases.TC_003_AddOneProductAndRemoveInCart">
+        <test-method is-config="true" signature="navigateToInventoryPage()[pri:0, instance:com.lao.testcases.TC_003_AddOneProductAndRemoveInCart@3de8f619]" started-at="2025-01-27T16:19:25 IST" name="navigateToInventoryPage" finished-at="2025-01-27T16:19:25 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToInventoryPage -->
+        <test-method signature="addOneProductAndRemoveInCart()[pri:0, instance:com.lao.testcases.TC_003_AddOneProductAndRemoveInCart@3de8f619]" started-at="2025-01-27T16:19:25 IST" name="addOneProductAndRemoveInCart" finished-at="2025-01-27T16:19:26 IST" duration-ms="1020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addOneProductAndRemoveInCart -->
+      </class> <!-- com.lao.testcases.TC_003_AddOneProductAndRemoveInCart -->
+    </test> <!-- test3 -->
+    <test started-at="2025-01-27T16:19:26 IST" name="test4" finished-at="2025-01-27T16:19:29 IST" duration-ms="3180">
+      <class name="com.lao.testcases.TC_004_FinishCheckOutAndGetCOInfo">
+        <test-method is-config="true" signature="navigateToInventoryPage()[pri:0, instance:com.lao.testcases.TC_004_FinishCheckOutAndGetCOInfo@6f204a1a]" started-at="2025-01-27T16:19:26 IST" name="navigateToInventoryPage" finished-at="2025-01-27T16:19:26 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToInventoryPage -->
+        <test-method signature="addProductFromInventoryPage()[pri:0, instance:com.lao.testcases.TC_004_FinishCheckOutAndGetCOInfo@6f204a1a]" started-at="2025-01-27T16:19:26 IST" name="addProductFromInventoryPage" finished-at="2025-01-27T16:19:27 IST" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductFromInventoryPage -->
+        <test-method signature="performCheckOutStepOne()[pri:1, instance:com.lao.testcases.TC_004_FinishCheckOutAndGetCOInfo@6f204a1a]" started-at="2025-01-27T16:19:27 IST" name="performCheckOutStepOne" finished-at="2025-01-27T16:19:28 IST" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performCheckOutStepOne -->
+        <test-method signature="getCheckOutInfoFromCheckOutStepTwo()[pri:2, instance:com.lao.testcases.TC_004_FinishCheckOutAndGetCOInfo@6f204a1a]" started-at="2025-01-27T16:19:28 IST" name="getCheckOutInfoFromCheckOutStepTwo" finished-at="2025-01-27T16:19:28 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckOutInfoFromCheckOutStepTwo -->
+        <test-method signature="clickOnFinish()[pri:3, instance:com.lao.testcases.TC_004_FinishCheckOutAndGetCOInfo@6f204a1a]" started-at="2025-01-27T16:19:28 IST" name="clickOnFinish" finished-at="2025-01-27T16:19:29 IST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnFinish -->
+      </class> <!-- com.lao.testcases.TC_004_FinishCheckOutAndGetCOInfo -->
+    </test> <!-- test4 -->
+    <test started-at="2025-01-27T16:19:29 IST" name="test5" finished-at="2025-01-27T16:19:32 IST" duration-ms="2841">
+      <class name="com.lao.testcases.TC_005_VerifyTheErrorMessageInCOInfo">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.lao.testcases.TC_005_VerifyTheErrorMessageInCOInfo@68c9d179]" started-at="2025-01-27T16:19:17 IST" name="launchBrowser" finished-at="2025-01-27T16:19:23 IST" duration-ms="5529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="navigateToInventoryPage()[pri:0, instance:com.lao.testcases.TC_005_VerifyTheErrorMessageInCOInfo@68c9d179]" started-at="2025-01-27T16:19:29 IST" name="navigateToInventoryPage" finished-at="2025-01-27T16:19:29 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToInventoryPage -->
+        <test-method signature="verifyTheErrorMessageforFirstName()[pri:0, instance:com.lao.testcases.TC_005_VerifyTheErrorMessageInCOInfo@68c9d179]" started-at="2025-01-27T16:19:29 IST" name="verifyTheErrorMessageforFirstName" finished-at="2025-01-27T16:19:30 IST" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessageforFirstName -->
+        <test-method signature="verifyTheErrorMessageforLastName()[pri:1, instance:com.lao.testcases.TC_005_VerifyTheErrorMessageInCOInfo@68c9d179]" started-at="2025-01-27T16:19:30 IST" name="verifyTheErrorMessageforLastName" finished-at="2025-01-27T16:19:31 IST" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessageforLastName -->
+        <test-method signature="verifyTheErrorMessageforZipCode()[pri:2, instance:com.lao.testcases.TC_005_VerifyTheErrorMessageInCOInfo@68c9d179]" started-at="2025-01-27T16:19:31 IST" name="verifyTheErrorMessageforZipCode" finished-at="2025-01-27T16:19:32 IST" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessageforZipCode -->
+        <test-method signature="verifyTheErrorMessageforEmptyfields()[pri:3, instance:com.lao.testcases.TC_005_VerifyTheErrorMessageInCOInfo@68c9d179]" started-at="2025-01-27T16:19:32 IST" name="verifyTheErrorMessageforEmptyfields" finished-at="2025-01-27T16:19:32 IST" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessageforEmptyfields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lao.testcases.TC_005_VerifyTheErrorMessageInCOInfo@68c9d179]" started-at="2025-01-27T16:19:32 IST" name="tearDown" finished-at="2025-01-27T16:19:33 IST" duration-ms="1053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lao.testcases.TC_005_VerifyTheErrorMessageInCOInfo -->
+    </test> <!-- test5 -->
+  </suite> <!-- Suite -->
+</testng-results>
